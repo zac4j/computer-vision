@@ -26,6 +26,19 @@ In this competition, you must create an algorithm to identify metastatic cancer 
 
 ### [I’m Something of a Painter Myself](https://www.kaggle.com/competitions/gan-getting-started/data)
 
-Use GANs to create art - will you be the next Monet?
+[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)]([https://www.kaggle.com/code/dazhengzhu/histopathologic-cancer-detection](https://www.kaggle.com/code/dazhengzhu/monet-imagen)) | [Notebook](https://github.com/zac4j/computer-vision/blob/main/monet-imagen.ipynb)
 
-- TBD
+### Description
+
+A GAN consists of at least two neural networks: a generator model and a discriminator model. The generator is a neural network that creates the images. For our competition, you should generate images in the style of Monet. This generator is trained using a discriminator.
+
+The two models will work against each other, with the generator trying to trick the discriminator, and the discriminator trying to accurately classify the real vs. generated images.
+
+Your task is to build a GAN that generates 7,000 to 10,000 Monet-style images.
+
+### Model Performance
+
+|       |     Model Name     | Accuracy |   Score  |
+|-------|:------------------:|:--------:|:--------:|
+| Train | CycleGAN           |          |          |
+| Test  | CycleGAN           |          | 82.30509 |
